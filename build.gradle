@@ -1,0 +1,22 @@
+apply plugin: 'java'
+apply plugin: 'jar'
+apply plugin: 'maven'
+apply plugin: 'maven-publish'
+apply plugin: 'jacoco'
+
+description = 'RabbitMq Client library'
+
+sourceCompatibility = 1.7
+targetCompatibility = 1.7
+
+repositories {
+	mavenCentral()
+}
+
+dependencies {
+	//RabbitMQ client
+	compile 'com.rabbitmq:amqp-client:3.3.4'
+	compile 'ch.qos.logback:logback-classic:1.1.2'
+	
+	testCompile 'junit:junit:4.+'
+}
