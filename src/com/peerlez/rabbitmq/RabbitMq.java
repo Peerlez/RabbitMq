@@ -13,35 +13,6 @@ import com.rabbitmq.client.Channel;
  */
 public final class RabbitMq implements RabbitMqMessage {
 
-	private static RabbitMq _instance;
-	private RabbitMqConnectionFactory _rabbitMqConnection;
-
-	/**
-	 * Non-argument constructor.
-	 */
-	private RabbitMq() {
-	}
-
-	/**
-	 * Gets the singleton instance of this class.
-	 *
-	 * @return singleton instance of this class
-	 */
-	public static synchronized RabbitMq instance() {
-
-		if (_instance == null) {
-			_instance = new RabbitMq();
-		}
-		return _instance;
-	}
-
-	/**
-	 * Closes all Channels and Connections.
-	 */
-	public void closeConnection() {
-		_rabbitMqConnection.close();
-	}
-
 	/**
 	 * Publish messages to queues.
 	 *
