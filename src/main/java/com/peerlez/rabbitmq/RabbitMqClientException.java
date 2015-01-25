@@ -7,7 +7,7 @@ package com.peerlez.rabbitmq;
  * @author A.Sillanpaa
  *
  */
-public class RabbitMqClientException extends Exception {
+public class RabbitMqClientException extends RuntimeException {
 
 	private static final long serialVersionUID = 3025916422765570405L;
 
