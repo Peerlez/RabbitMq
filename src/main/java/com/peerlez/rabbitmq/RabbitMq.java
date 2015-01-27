@@ -11,7 +11,7 @@ import com.rabbitmq.client.Channel;
  * @author A.Sillanpaa
  *
  */
-public final class RabbitMq implements RabbitMqMessage {
+public final class RabbitMq implements RabbitMqHandler {
 
 	/**
 	 * Publish messages to queues.

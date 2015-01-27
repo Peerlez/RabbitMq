@@ -13,13 +13,6 @@ public class RabbitMqConnection {
 	private String _rabbitMqUserName;
 	private String _rabbitMqPassword;
 	private String _serverAddress;
-
-	
-	/**
-	 * Non-Argument constructor
-	 */
-	public RabbitMqConnection() {
-	}
 	
 	/**
 	 * Constructs the AMQP URI to used to initialize new AMQP connection.
