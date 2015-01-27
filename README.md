@@ -3,7 +3,7 @@ Java library to help rabbitMq usage on java applications.
 
 Usage:
 
-		private static RabbitMqMessage _sendMsg = new RabbitMq();
+		private static RabbitMqHandler _sendMsg = new RabbitMq();
 		
 		private static final String VHOST = "myVhost";
 		private static final String USERNAME = "username";
