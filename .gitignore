@@ -50,3 +50,7 @@ Temporary Items
 .project
 .classpath
 .settings/org.eclipse.jdt.core.prefs
+/bin/
+.settings/gradle/org.springsource.ide.eclipse.gradle.core.import.prefs
+.settings/gradle/org.springsource.ide.eclipse.gradle.core.prefs
+.settings/gradle/org.springsource.ide.eclipse.gradle.refresh.prefs
